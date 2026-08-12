@@ -1,0 +1,10 @@
+# NationHearts
+# Exact glyphs from the supplied Nations resourcepack.
+active-heart: "\\uE01B"
+inactive-heart: "\\uE01C"
+starting-lives: 3
+max-lives: 3
+show-actionbar: true
+actionbar-refresh-ticks: 10
+kick-message: "Du hast keine Leben mehr!"
+login-message: "Du hast keine Leben mehr!"

@@ -1,0 +1,234 @@
+{"providers": [
+  {
+    "advances": {
+      "": 2,
+      "": 4,
+      "": 8,
+      "": 16,
+      "": -1,
+      "": -2,
+      "": -4,
+      "": -8,
+      "": -16,
+      "": 1
+    },
+    "type": "space"
+  },
+  {
+    "file": "risiko:font/logo_left.png",
+    "ascent": 20,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 40
+  },   
+  {
+    "file": "risiko:font/logo_right.png",
+    "ascent": 20,
+    "type": "bitmap",
+    "chars": [""], 
+    "height": 40
+  },
+  {
+    "file": "risiko:font/logo_chat.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""], 
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_snow_1.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_snow_2.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_snow_3.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_canyon_1.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_canyon_2.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_canyon_3.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_flower_1.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_flower_2.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_flower_3.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_leaf_1.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_leaf_2.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_leaf_3.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_mushroom_1.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_mushroom_2.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_mushroom_3.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_beach_1.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_beach_2.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_beach_3.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_mountain_1.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_mountain_2.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_mountain_3.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_forest_1.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_forest_2.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_forest_3.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/badge_underground.png",
+    "ascent": 8,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 9
+  },
+  {
+    "file": "risiko:font/active_heart.png",
+    "ascent": -16,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 8
+  },
+  {
+    "file": "risiko:font/inactive_heart.png",
+    "ascent": -16,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 8
+  },
+  {
+    "file": "risiko:font/war_over_inventory.png",
+    "ascent": 12,
+    "type": "bitmap",
+    "chars": [""],
+    "height": 256
+  }
+]}

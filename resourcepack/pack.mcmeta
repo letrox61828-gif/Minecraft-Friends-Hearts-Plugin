@@ -1,0 +1,18 @@
+{
+    "pack": {
+        "min_format": [
+            75,
+            0
+        ],
+        "max_format": [
+            75,
+            0
+        ],
+        "description": [
+            {
+                "text": "Minecraft Nations Plugin",
+                "color": "#ED2C29"
+            }
+        ]
+    }
+}

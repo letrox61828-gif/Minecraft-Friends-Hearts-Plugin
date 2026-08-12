@@ -1,0 +1,15 @@
+name: NationHearts
+version: 1.0.0
+main: de.nations.hearts.NationHeartsPlugin
+api-version: '1.21'
+author: Nations
+description: Blue lives system using the custom hearts from the Nations resource pack.
+commands:
+  nation:
+    description: Nation server commands.
+    usage: /nation hearts set <Spieler> <1|2|3>
+    aliases: [nations]
+permissions:
+  nationhearts.admin:
+    description: Allows changing player lives with /nation hearts set.
+    default: op
