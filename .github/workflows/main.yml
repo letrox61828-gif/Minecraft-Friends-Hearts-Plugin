@@ -1,35 +1,36 @@
-name: Build NationHearts
+plugins {
+    java
+}
 
-on:
-  push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
+group = "de.nations"
+version = "1.0.0"
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+description = "Blue lives system for Paper 1.21.11 using the Minecraft Nations resource pack heart glyphs."
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+repositories {
+    mavenCentral()
 
-      - name: Setup Java 21
-        uses: actions/setup-java@v4
-        with:
-          java-version: "21"
-          distribution: "temurin"
+    maven {
+        name = "papermc"
+        url = uri("https://repo.papermc.io/repository/maven-public/")
+    }
+}
 
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: "8.14.1"
+dependencies {
+    compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
+}
 
-      - name: Build plugin
-        run: gradle build
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
 
-      - name: Upload plugin JAR
-        uses: actions/upload-artifact@v4
-        with:
-          name: NationHearts
-          path: build/libs/*.jar
+tasks.withType<JavaCompile>().configureEach {
+    options.encoding = "UTF-8"
+    options.release.set(21)
+}
+
+tasks.withType<Jar>().configureEach {
+    archiveBaseName.set("NationHearts")
+}
